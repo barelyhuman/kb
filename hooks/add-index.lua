@@ -35,12 +35,11 @@ function Writer(filedata)
         then
             local name = strings.trim(files[fileIndex], ".md")
             local link = name .. ".html"
-            if (name == "index") then
-                navigation = navigation .. list_def(name,link)
-            else 
+            if not (name == "index") then
                 navigation = navigation .. "\t" ..list_def(name,link)
             end
             
+            navigation .. list_def(name,link)
         end
     end
 
