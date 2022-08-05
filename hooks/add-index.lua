@@ -41,7 +41,7 @@ function Writer(filedata)
         end
     end
 
-    navigation =  list_def("..","index.html") .. navigation 
+    navigation =  list_def("..","index.html") .. navigation
 
     if (source_data.name == "index.html")
     then
