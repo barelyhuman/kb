@@ -65,6 +65,7 @@ body {
 }
 
 .container {
+  padding:6px;
   max-width: 96ch;
   width: calc(100% - 2rem);
   margin-left: auto;
