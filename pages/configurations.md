@@ -11,9 +11,7 @@ etc.
 Here's how I plan to get it to work and it's not an original idea (obviously!
 not a genius.).
 
-If you've used [`ytdl`](https://github.com/ytdl-org/youtube-dl) the original library then it uses the cli flags as configuration by passing a youtube-dl.conf
-file either locally or in one of the many user / global configuration
-directories and that's perfect.
+If you've used [`ytdl`](https://github.com/ytdl-org/youtube-dl) the original library then it uses the cli flags as configuration by passing a youtube-dl.conf file either locally or in one of the many user / global configurationdirectories and that's perfect.
 
 You get to keep a single layer of default values and single level of parsing,
 unless you allow multiple values for the same argument, then maybe a little more
