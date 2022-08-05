@@ -38,10 +38,10 @@ function Writer(filedata)
             if not (name == "index") then
                 navigation = navigation .. "\t" ..list_def(name,link)
             end
-            
-            navigation .. list_def(name,link)
         end
     end
+
+    navigation =  navigation .. list_def("..","index.html")
 
     if (source_data.name == "index.html")
     then
