@@ -1,0 +1,11 @@
+{
+  "git.postCommitCommand": "push",
+  "emeraldwalk.runonsave": {
+    "commands": [
+      {
+        "match": ".*",
+        "cmd": "git add -A; git commit -m 'auto-save';git push"
+      }
+    ]
+  }
+}

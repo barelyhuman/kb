@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+touch pages/$1.md
+nvim pages/$1.md
