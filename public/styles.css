@@ -120,3 +120,8 @@ a:hover {
 ul {
   padding-inline-start: 1.2rem;
 }
+
+
+.text-center{
+  text-align: center;
+}
