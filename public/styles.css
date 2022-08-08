@@ -37,11 +37,11 @@
 html {
   --font-sans: "IBM Plex Sans";
   --font-mono: "IBM Plex Mono";
-  --text: #191815;
-  --base: #FAF9F6;
+  --text: #fdb579ff;
+  --base: #1c3d41;
   --surface: #e3e2e2;
   --subtle: #999;
-  --muted: #ddd;
+  --muted: #fdb57999;
 }
 
 html,
@@ -65,7 +65,7 @@ body {
 }
 
 .container {
-  padding:6px;
+  padding: 6px;
   max-width: 96ch;
   width: calc(100% - 2rem);
   margin-left: auto;
@@ -89,6 +89,12 @@ code,
 kbd {
   background: var(--surface);
   font-family: var(--font-mono);
+}
+
+code,
+kbd {
+  padding: 0.15rem 0.25rem;
+  border-radius: 4px;
 }
 
 pre {
@@ -122,10 +128,9 @@ ul {
   padding-inline-start: 1.2rem;
 }
 
-
-.text-center{
+.text-center {
   text-align: center;
 }
-.max-w-full{
-  max-width:100%;
+.max-w-full {
+  max-width: 100%;
 }
