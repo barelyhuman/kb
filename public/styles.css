@@ -139,5 +139,5 @@ ul {
 hr{
   border:0px;
   height:2px;
-  background-color :red;
+  background-color :var(--subtle);
 }
