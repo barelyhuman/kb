@@ -38,8 +38,8 @@ html {
   --font-sans: "IBM Plex Sans";
   --font-mono: "IBM Plex Mono";
   --text: #fdb579ff;
-  --base: #1c3d41;
-  --surface: #e3e2e2;
+  --base: #1c3d41ff;
+  --surface: #1c3d4199;
   --subtle: #999;
   --muted: #fdb57999;
 }
