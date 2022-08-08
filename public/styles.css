@@ -134,3 +134,8 @@ ul {
 .max-w-full {
   max-width: 100%;
 }
+
+
+hr{
+  background-color :red;
+}
