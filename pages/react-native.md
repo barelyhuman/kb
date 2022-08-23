@@ -29,3 +29,5 @@ rm -rf ios/Pods
 yarn
 cd ios; pod install; cd ..
 ```
+
+
