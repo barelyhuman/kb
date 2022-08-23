@@ -30,5 +30,3 @@ yarn
 cd ios; pod install; cd ..
 ```
 
-
-
