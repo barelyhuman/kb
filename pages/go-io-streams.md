@@ -14,7 +14,7 @@ This allows you to read the file in buffers manually instead of just reading the
 
 Ex:
 
-```
+```go
 fileBytes, err := ioutil.ReadFile("path/to/file")
 ```
 
